@@ -1,11 +1,19 @@
-* {
+ {
     margin:0;
     padding:0;
     outline:none
 }
+.wrap {
+    width: 1400px;
+    margin:0px auto;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
 .header{
     width: 1400px;
-    height: 250px;
+    padding-top: 100px;
+    padding-bottom: 36px;
+    text-align: center;
 }
 .main-title{
     font-family: Raleway;
@@ -13,63 +21,43 @@
     font-weight: 400;
     line-height: 42px;
     color: #212121;
-    padding: 100px 495px 0px 496px;
+    margin-bottom: 25px;
 }
 .line{
-    margin: 25px 668px 30px 668px;
     width: 64px;
     height: 1px;
 	border: none;
     border-top: 1px solid #E72424;
+    margin: 0 668px 30px 668px;
 }
 .subtitle{
     font-family:Open Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
-    margin: 0 0 0 519px;
 }
 .main {
     width: 1400px;
-    height: 345px;
+    padding-bottom: 109px;
     text-align: center;
 }
-.block-left {
-	display: inline-block; 
+.block{
+    display: inline-block;
     width: 350px;
-    height: 225px; 
-    margin:31px 28px 0 143px;
-    vertical-align: top   
-}
-.block-centr {
-    display: inline-block; 
-    width: 350px;
-    height: 225px;
-    margin: 31px 28px 0 0;
-    vertical-align: top
-}
-.block-right {
-    display: inline-block; 
-    width: 350px;
-    height: 225px;
-    margin: 31px 143px 0 0;
-    vertical-align: top
+    margin: 0 16px;
 }
 .block-title{
-    font-family: Open Sans;
-    font-weight: 700;
+    margin-bottom: 29px;
     font-size: 20px;
-    line-height: 27px;
-    color:#333333;
-    margin: 30px 80px 0 81px;
+    font-weight: 700;
+    color: #333333;
 }
 .p{
-    font-family: Open Sans;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
     color:#333333;
-    margin: 16px 0 20px 0;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 .lamp-img{
     width: 23px;
@@ -91,5 +79,16 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    margin: 0px 140px 0px 140px;
+    margin: 0px auto 30px
+}
+.circle--lamp {
+    background: url(/images/lamp.png) no-repeat center;
+}
+
+.circle--keyboard {
+    background: url(/images/keyboard.png) no-repeat center;
+}
+
+.circle--lightning {
+    background: url(/images/lightning.png) no-repeat center;
 }
